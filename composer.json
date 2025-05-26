@@ -1,0 +1,29 @@
+{
+    "name": "salehen/laravel-carousel-component",
+    "description": "A reusable Owl Carousel Blade component for Laravel, Livewire, and Alpine.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reajuj Salehen",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10|^11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\CarouselComponent\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\CarouselComponent\\CarouselServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
